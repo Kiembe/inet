@@ -41,7 +41,7 @@ header .nav_bar .menu ul li:hover{
 .banner{
     height: 90vh;
     display: flex;
-    background-image: url(../img/bg.avif);
+    background-image: url(../img/bgfix.png);
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;

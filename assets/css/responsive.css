@@ -113,6 +113,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .voucher2 .card .right,
@@ -131,6 +132,7 @@
     .voucher3 .container .left ul li{
         text-align: start;
     }
+    
 
     .nav_bar .mb_menu{
         display: block !important;
