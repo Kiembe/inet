@@ -42,6 +42,9 @@ header .nav_bar .menu ul li:hover{
     height: 90vh;
     display: flex;
     background-image: url(../img/bg.avif);
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-size: 100vw;
     position: relative;
