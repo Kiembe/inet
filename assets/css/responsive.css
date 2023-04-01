@@ -91,6 +91,11 @@
 }
 
 @media screen and (max-width:720px){
+
+    .banner .more p{
+        padding: 0 !important;
+    }
+
     .banner .blur .left,
     .banner .blur .right{
         display: none ;
