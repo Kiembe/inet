@@ -1,0 +1,197 @@
+@media screen and (min-width:901px ) and (max-width:1286px){
+    .banner{
+        height: 90vh !important;
+        background-size: 100% 100% !important;
+    }
+
+    .voucher3{
+        padding: 0px 50px ;
+    }
+
+    .voucher3 .right img{
+        margin-left: 0px !important;
+    }
+
+    .support .img{
+        grid-template-columns: repeat(4,1fr) !important;
+        justify-items: center
+    }
+
+    footer{
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .nav_bar .container{
+        padding: 20px !important;
+    }
+
+    .banner{
+        height: 90vh !important;
+        background-size: 100% 100% !important;
+    }
+
+    .banner .center>p{
+        display: none;
+    }
+
+    .banner h1{
+        margin-bottom: 50px;
+    }
+
+    .voucher1 .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voucher2 .card{
+        gap: 20px;
+    }
+
+    .voucher2 .right img{
+        margin: 0px !important;
+        scale: 0.9;
+    }
+
+    .voucher3 .right img{
+        margin-left: 0px !important;
+        scale: 0.7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voucher3 .container{
+        padding: 0px 50px;
+    }
+
+    .support .img{
+        display: flex !important;
+        overflow-x: scroll;
+        padding: 0px 10px;
+    }
+
+    .support .img::-webkit-scrollbar{
+        display: none;
+    }
+
+    footer{
+        padding: 0px 20px;
+    }
+
+    footer .more{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .banner .blur .left,
+    .banner .blur .right{
+        display: none ;
+    }
+
+    .voucher2 .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voucher3 .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voucher2 .card .right,
+    .voucher3 .container .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voucher2 .card .left,
+    .voucher3 .container .left{
+        text-align: center;
+    }
+
+    .voucher2 .card .left ul li,
+    .voucher3 .container .left ul li{
+        text-align: start;
+    }
+
+    .nav_bar .mb_menu{
+        display: block !important;
+        font-size: 28px;
+    }
+
+    .nav_bar .mb_menu i{
+        cursor: pointer;
+    }
+
+    .nav_bar .menu{
+        display: none;
+    }
+
+    .nav_bar .menu_mb{
+        display: none;
+    }
+
+
+    .menu_mb.open{
+        display: initial;
+    }
+
+    .nav_bar .menu_mb.open ul{
+        display: flex ;
+        flex-direction: column ;
+        background: #fff;
+        width: 100%;
+        position: absolute;
+        z-index: 4;
+        top: 72.78px;
+        left: 0;
+        text-align: end;
+        padding: 10px 20px;
+        list-style: none;
+        font-size: 18px;
+        color: #444444;
+        font-weight: 550;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+        transition: all 0.5s;
+    }
+
+    .nav_bar .menu_mb ul li{
+        margin: 10px 0px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width:545px){
+    .signin {
+        text-align: center;
+    }
+
+    .signin form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signin input{
+        border-radius: 10px !important;
+    }
+
+    .signin button{
+        border-radius: 10px !important;
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+}
