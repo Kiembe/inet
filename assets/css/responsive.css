@@ -1,6 +1,11 @@
-@media screen and (min-width:901px ) and (max-width:1286px){
+@media screen and (min-width:721px ) and (max-width:1286px){
+
+    .nav_bar .container{
+        padding: 20px !important;
+    }
+
     .banner{
-        height: 90vh !important;
+        height: 95vh !important;
         background-size: 100% 100% !important;
     }
 
@@ -8,7 +13,13 @@
         padding: 0px 50px ;
     }
 
+    .voucher3 .container{
+        padding: 0px !important;
+    }
+
     .voucher3 .right img{
+        width: 100%;
+        object-fit: cover;
         margin-left: 0px !important;
     }
 
@@ -68,6 +79,8 @@
     .voucher3 .container{
         padding: 0px 50px;
     }
+
+    
 
     .support .img{
         display: flex !important;
