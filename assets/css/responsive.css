@@ -101,6 +101,10 @@
         display: none ;
     }
 
+    .voucher1 .card{
+        max-width: 90%;
+    }
+
     .voucher2 .card{
         display: flex;
         flex-direction: column;
@@ -131,6 +135,15 @@
     .voucher2 .card .left ul li,
     .voucher3 .container .left ul li{
         text-align: start;
+    }
+
+    .voucher3 .right{
+        min-width: 100%;
+    }
+
+    .voucher3 img{
+        max-width: 100%;
+        object-fit: cover;
     }
     
 
@@ -183,6 +196,17 @@
 }
 
 @media screen and (max-width:545px){
+
+    .banner{ 
+        background-attachment:scroll; 
+        -o-background-size:cover; 
+        -moz-background-size:cover; 
+        -webkit-background-size:cover; 
+        background-size:cover;
+        width: 100%;
+        }
+
+
     .signin {
         text-align: center;
     }
@@ -200,5 +224,14 @@
         border-radius: 10px !important;
         margin-top: 10px;
         margin-left: 0px !important;
+    }
+
+    .signin input{
+        max-width: 100%;
+
+    }
+
+    form{
+        max-width: 80%;
     }
 }
